@@ -1,9 +1,9 @@
 {
-    "DESIGN_NAME": "DFFRAM256x16",
+    "DESIGN_NAME": "DFFRAM256x16_2R1W",
     "DESIGN_IS_CORE": false,
     "VERILOG_FILES": [
-        "dir::DFFRAM256x16.v",
-        "dir::DFFRAM.v"
+        "dir::DFFRAM256x16_2R1W.v",
+        "dir::DFFRAM_2R1W.v"
     ],
     "CLOCK_PERIOD": 20,
     "RUN_CTS": 0,
@@ -20,7 +20,7 @@
     "FP_PDN_VPITCH": 60,
     "FP_SIZING": "relative",
     "FP_ASPECT_RATIO": 0.45,
-    "FP_CORE_UTIL": 55,
+    "FP_CORE_UTIL": 50,
     "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
     "PL_TARGET_DENSITY": 0.59,
     "PL_TIME_DRIVEN": 0,
